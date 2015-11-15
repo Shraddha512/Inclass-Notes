@@ -27,7 +27,7 @@ public class ViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_view);
 
         text = (TextView) findViewById(R.id.text1);
         // store it to sd card
